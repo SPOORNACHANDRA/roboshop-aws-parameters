@@ -5,3 +5,4 @@ resource "aws_ssm_parameter" "main" {
   value = each.value["value"]
 }
 
+

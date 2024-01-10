@@ -20,12 +20,12 @@ parameters = {
   "rds.dev.database_name"     = { type = "String", value = "dummy" }
   "user.dev.REDIS_HOST"     = { type = "String", value = "dev-redis-elasticache-subnet-group.zvxus1.0001.use1.cache.amazonaws.com" }
   "cart.dev.REDIS_HOST"     = { type = "String", value = "dev-redis-elasticache-subnet-group.zvxus1.0001.use1.cache.amazonaws.com" }
-  "cart.dev.CATALOGUE_HOST"     = { type = "String", value = "catalogue-dev.poornadevops.online"
-  "cart.dev.CATALOGUE_HOST"     = { type = "String", value = "80"
+  "cart.dev.CATALOGUE_HOST"     = { type = "String", value = "catalogue-dev.poornadevops.online"}
+  "cart.dev.CATALOGUE_HOST"     = { type = "String", value = "80"}
 
 
-  ## Usually the passwords are not at all preferred to keep under git repo., Usually in orgs we always create passwords in manual way whomever have access. In class we keep it here for easy reference
-  ## Passwords
+    ## Usually the passwords are not at all preferred to keep under git repo., Usually in orgs we always create passwords in manual way whomever have access. In class we keep it here for easy reference
+    ## Passwords
   "docdb.dev.master_password" = { type = "SecureString", value = "roboshop1234" }
   "rds.dev.master_password"   = { type = "SecureString", value = "roboshop1234" }
 }

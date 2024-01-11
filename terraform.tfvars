@@ -25,7 +25,7 @@ parameters = {
   "shipping.dev.CART_ENDPOINT" = { type = "String", value = "cart-dev.poornadevops.online:80" }
   "shipping.dev.DB_HOST"       = { type = "String", value = "dev-mysql-rds-cluster.cluster-c3qe0ockqvtu.us-east-1.rds.amazonaws.com" }
 
-  "payment.dev.CART_HOST" = { type = "String", value = "cart-dev.poornadevops.online:80" }
+  "payment.dev.CART_HOST" = { type = "String", value = "cart-dev.poornadevops.online" }
   "payment.dev.CART_PORT" = { type = "String", value = "80" }
   "payment.dev.USER_HOST" = { type = "String", value = "user-dev.poornadevops.online" }
   "payment.dev.USER_PORT" = { type = "String", value = "80" }

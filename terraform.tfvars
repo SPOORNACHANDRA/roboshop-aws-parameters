@@ -43,5 +43,17 @@ parameters = {
   "elastisearch.username" = { type = "String", value = "roboshop" }
   "elastisearch.password" = { type = "SecureString", value = "password" }
 
+  ##Nexus
+  "nexus.username"     = { type = "String", value = "admin" }
+  "nexus.password"     = { type = "SecureString", value = "admin123" }
+  "nexus.dev.username" = { type = "String", value = "admin" }
+  "nexus.dev.password" = { type = "SecureString", value = "admin123" }
 
+  ##AppVersion
+  "payment.dev.appVersion"   = { type = "String", value = "1.0.0" }
+  "user.dev.appVersion"      = { type = "String", value = "1.0.2" }
+  "cart.dev.appVersion"      = { type = "String", value = "1.0.0" }
+  "shipping.dev.appVersion"  = { type = "String", value = "1.0.1" }
+  "catalogue.dev.appVersion" = { type = "String", value = "1.0.2" }
+  "frontend.dev.appVersion"  = { type = "String", value = "1.0.0" }
 }
